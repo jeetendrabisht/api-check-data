@@ -1,0 +1,32 @@
+{
+  "name": "api-check-data",
+  "version": "1.0.0",
+  "description": "API to check current date is prime or not",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./server.js",
+    "test": "mocha **/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeetendrabisht/api-check-data.git"
+  },
+  "author": "Jeetendra Bisht",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.9",
+    "nodemon": "^1.18.5",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "simple-node-logger": "^0.93.40"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "require-uncached": "^1.0.3",
+    "supertest": "^3.3.0",
+    "tap": "^12.0.1"
+  }
+}

@@ -1,0 +1,8 @@
+# Logger
+Logger/logs
+
+# Modules
+node_modules
+
+# Package Lock File
+package-lock
