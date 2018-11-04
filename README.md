@@ -4,7 +4,7 @@ api-check-data
 
 # Description
 
-This API provided to check current date i.e day of the date ( e.g DD-MM-YYYY, DD will be the day) is prime or not. If prime call a weather API service and store it's resp. data in mongo and shw success. If not a prime provide internal server error.
+This API provided to check current date i.e day of the date ( e.g DD-MM-YYYY, DD will be the day) is prime or not. If prime call a weather API service and store it's resp. data in mongodb and show success. If not a prime provide internal server error.
 
 # Usage
 
